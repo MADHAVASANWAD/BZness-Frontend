@@ -1,0 +1,165 @@
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.allitems {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    border-right: 1px solid rgb(221, 221, 221);
+
+}
+
+.orderplacer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    gap: 3%;
+    padding: 5%;
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid rgb(221, 221, 221);
+
+}
+
+.bottomdetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    width: 100%;
+    height: 20%;
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.cart {
+    padding: 5%;
+    width: 100%;
+    height: 70%;
+    overflow: ;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6%;
+    padding: 5%;
+    width: 100%;
+    height: 8%;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.itesms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    width: 100%;
+    height: 85%;
+    flex-wrap: wrap;
+    gap: 5%;
+    overflow: auto;
+
+
+
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    width: 18%;
+    height: 15%;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 8px;
+
+}
+
+input {
+    padding: 1%;
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+select {
+    text-align: center;
+    padding: 1%;
+    width: 20%;
+    border-radius: 8px;
+    border: 1px solid rgb(205, 205, 205);
+}
+
+button {
+    text-align: center;
+    padding: 1%;
+    width: 20%;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.total {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    width: 100%;
+    height: 5%;
+    padding: 1%;
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.online{
+    width: 50%;
+    height: 50%;
+    padding: 1%;
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 100%;
+    height: 50%
+
+}
+
+.dialogbox{
+    position:fixed;
+    top: 20%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closebox{
+    display: none;
+}

@@ -1,0 +1,29 @@
+.nav{
+    display:  flex;
+    justify-content:  space-between;
+    align-items: center;
+    background-color: rgb(26, 29, 35);
+    padding: 2%;
+    position:fixed;
+    width: 100vw;
+    height: 5vh;
+    color: white;
+}
+
+.inner{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20vw;
+    height: 5vh;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.opt{
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
